@@ -35,14 +35,20 @@ body {
 
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 #nav-list a {
-  color: #951C49;
+  color: black;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 1px #e6e71e; */
   text-align: center;
+  border-bottom: 1px solid yellow;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #cbf4e9;
+
+ 
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -68,6 +74,8 @@ body {
   clear: both;
   margin-top: -30px;
 }
+
+
 /* END HEADER */
 
 .jumbotron {
@@ -76,13 +84,9 @@ background-color: a4f0df;
 }
 
 .jumbotron h1 {
-	color: grey;
+	margin-top: 15px;
 }
 
-@media (min-width: 768px) {
-.jumbotron h1 {
-	text-align: center;
-}
 
 
 © 2021 GitHub, Inc.
